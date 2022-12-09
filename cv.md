@@ -2,16 +2,23 @@
 
 ###  STUDENT OF STAGE0 RSSCHOOL
 
+
 ***********************************
 
-## Contact information:
+## CONTACT INFORMATION:
+
+
 * Phone: +375296190308;
 * E-mail: ivansharakhouski@gmail.com;
 * Viber: +375339122920;
 * WhatsApp: +375339122920.
+* 
 
 ***************************************
+
+
 ## ABOUT MYSELF:
+
 
  I am a lawyer by education. I graduated from the Faculty of Law of the Belarusian State University. After graduating and to the present, I work in the field of bad debt recovery in financial companies and banks.
  
@@ -24,6 +31,20 @@
  
  I believe that my ability to learn and acquire new skills will help me become an experienced Frontend Developer.
  
+ 
+ 
  ************************************************************************************************************************
-
+ 
+ 
+ ## SKILLS AND PROFICiENCY:
+ 
+ 
+* HTML5;
+* CSS3;
+* JavaScript Basics;
+* Git, GitHub
+* VS Code;
+* Figma;
     
+
+******************************************************************************************************************

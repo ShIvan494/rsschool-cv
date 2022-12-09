@@ -48,7 +48,7 @@
  ## CODE EXAMPLE:
  
  
- Функция для сортировки массива по количеству выполненных задач сотрудниками от большего к меньшему.
+ A function to sort the array by the number of completed tasks by employees from highest to lowest.
  
  ```
  var tasksCompleted = [
@@ -63,4 +63,23 @@ function compareTaskComp (a,b) {
 tasksCompleted.sort (compareTaskComp);
 console.log (tasksCompleted);
  ```
+ 
+ **************************************************************************
+ 
+ 
+ ## COURSES:
+ 
++ Сomputer science (IT Academy);
++ website development (IT Academy);
++ JavaScript Manual on learnjavascript.ru (in progress);
++ RS Schools Course «JavaScript/Front-end. Stage 0» (in progress);
 
+******************************************************************************
+
+
+## LANGUAGES:
+
+* Russian - Native;
+* Polish - Basic;
+* English - Intermediate;
+* French: - Intermediate;

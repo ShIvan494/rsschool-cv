@@ -2,8 +2,8 @@
 
 ###  STUDENT OF STAGE0 RSSCHOOL
 
-
 ***********************************
+
 
 ## CONTACT INFORMATION:
 
@@ -12,10 +12,8 @@
 * E-mail: ivansharakhouski@gmail.com;
 * Viber: +375339122920;
 * WhatsApp: +375339122920.
-* 
 
 ***************************************
-
 
 ## ABOUT MYSELF:
 
@@ -30,9 +28,7 @@
  
  
  I believe that my ability to learn and acquire new skills will help me become an experienced Frontend Developer.
- 
- 
- 
+  
  ************************************************************************************************************************
  
  
@@ -46,5 +42,25 @@
 * VS Code;
 * Figma;
     
-
 ******************************************************************************************************************
+
+
+ ## CODE EXAMPLE:
+ 
+ 
+ Функция для сортировки массива по количеству выполненных задач сотрудниками от большего к меньшему.
+ 
+ ```
+ var tasksCompleted = [
+ { worker:'Anna', taskComp: 29 },
+ { worker:'Serg', taskComp: 35 },
+ { worker:'Elena', taskComp: 1},
+ { worker:'Anton', taskComp: 99}
+]
+function compareTaskComp (a,b) {
+    return (b.taskComp-a.taskComp)
+}
+tasksCompleted.sort (compareTaskComp);
+console.log (tasksCompleted);
+ ```
+

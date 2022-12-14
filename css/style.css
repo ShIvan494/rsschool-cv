@@ -1,5 +1,17 @@
-.HEADER {
-    width: 100%;
-     background: #9ECDD6;
-     margin-bottom: 50px;
- }
+.container {
+  max-width: 1800px;
+}
+.nav {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom: solid;
+  border-color: #000000;     
+}
+.nav ul {
+  text-align: center;
+  margin: 10px;
+}
+.nav ul li {
+  display: inline;
+  margin: 50px;
+}

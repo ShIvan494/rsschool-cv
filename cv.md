@@ -32,7 +32,7 @@
  ************************************************************************************************************************
  
  
- ## SKILLS AND PROFICiENCY:
+##  SKILLS AND PROFICiENCY:
  
  
 * HTML5;
@@ -45,7 +45,7 @@
 ******************************************************************************************************************
 
 
- ## CODE EXAMPLE:
+##  CODE EXAMPLE:
  
  
  A function to sort the array by the number of completed tasks by employees from highest to lowest.
@@ -67,7 +67,7 @@ console.log (tasksCompleted);
  **************************************************************************
  
  
- ## COURSES:
+##  COURSES:
  
 + Сomputer science (IT Academy);
 + website development (IT Academy);
@@ -77,7 +77,7 @@ console.log (tasksCompleted);
 ******************************************************************************
 
 
-## LANGUAGES:
+##  LANGUAGES:
 
 * Russian - Native;
 * Polish - Basic;

@@ -15,7 +15,7 @@
 
 ***************************************
 
- ## ABOUT MYSELF:
+## ABOUT MYSELF:
 
 
  I am a lawyer by education. I graduated from the Faculty of Law of the Belarusian State University. After graduating and to the present, I work in the field of bad debt recovery in financial companies and banks.
@@ -32,7 +32,7 @@
  ************************************************************************************************************************
  
  
- ##  SKILLS AND PROFICiENCY:
+##  SKILLS AND PROFICiENCY:
  
  
 * HTML5;
@@ -45,7 +45,7 @@
 ******************************************************************************************************************
 
 
- ##  CODE EXAMPLE:
+##  CODE EXAMPLE:
  
  
  A function to sort the array by the number of completed tasks by employees from highest to lowest.
@@ -67,7 +67,7 @@ console.log (tasksCompleted);
  **************************************************************************
  
  
- ##  COURSES:
+##  COURSES:
  
 + Сomputer science (IT Academy);
 + website development (IT Academy);

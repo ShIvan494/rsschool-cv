@@ -5,16 +5,17 @@ body {
 .container {
   width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .header {
   width: 100%;
-  height: 100px;
+  height: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: blue;
+  background-color: #daa520;
 }
 .nav {
   width: 100%;
@@ -23,4 +24,147 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+.nav ul li a {
+  text-decoration: none;
+  color: #000000;
+}
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.mainLeftside {
+  width: 20%;
+  background-color: #daa520;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.mainLeftside img {
+  width: 250px;
+  height: 250px;
+  border-radius: 600px;
+}
+.contact img {
+  width: 50px;
+  height: 50px;
+}
+.location {
+  display: flex;
+  flex-direction: row;
+}
+.location div:last-child {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.phone {
+  display: flex;
+  flex-direction: row;
+}
+.phone div:last-child {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.git {
+  display: flex;
+  flex-direction: row;
+}
+.git div:last-child {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.git div a:last-child {
+  text-decoration: none;
+}
+.discord {
+  display: flex;
+  flex-direction: row;
+}
+.discord div:last-child {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.viber {
+  display: flex;
+  flex-direction: row;
+}
+.viber div:last-child {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.whatsApp {
+  display: flex;
+  flex-direction: row;
+}
+.whatsApp div:last-child {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.telegramm {
+  display: flex;
+  flex-direction: row;
+}
+.telegramm div:last-child {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mail {
+  display: flex;
+  flex-direction: row;
+}
+.mail div:last-child {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainRightside {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  background-color:  #808080;
+  ;
+}
+.footer {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color:#daa520;
+}
+.gitLink {
+  display: flex;
+  flex-direction: row;
+}
+.gitLink div:first-child {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gitLink a {
+  text-decoration: none;
+  color: #000000;
+}
+.rssLink img {
+  width: 100px;
+  height: 100px;
 }

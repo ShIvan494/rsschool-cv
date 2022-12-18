@@ -15,7 +15,7 @@
 
 ***************************************
 
-## ABOUT MYSELF:
+ ## ABOUT MYSELF:
 
 
  I am a lawyer by education. I graduated from the Faculty of Law of the Belarusian State University. After graduating and to the present, I work in the field of bad debt recovery in financial companies and banks.

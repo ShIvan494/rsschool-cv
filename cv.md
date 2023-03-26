@@ -30,3 +30,55 @@
  I believe that my ability to learn and acquire new skills will help me become an experienced Frontend Developer.
   
  ************************************************************************************************************************
+ ##  SKILLS AND PROFICiENCY:
+ 
+ 
+* HTML5;
+* CSS3;
+* JavaScript Basics;
+* Git, GitHub
+* VS Code;
+* Figma;
+    
+******************************************************************************************************************
+
+
+##  CODE EXAMPLE:
+ 
+ 
+ A function to sort the array by the number of completed tasks by employees from highest to lowest.
+ 
+ ```
+ var tasksCompleted = [
+ { worker:'Anna', taskComp: 29 },
+ { worker:'Serg', taskComp: 35 },
+ { worker:'Elena', taskComp: 1},
+ { worker:'Anton', taskComp: 99}
+]
+function compareTaskComp (a,b) {
+    return (b.taskComp-a.taskComp)
+}
+tasksCompleted.sort (compareTaskComp);
+console.log (tasksCompleted);
+ ```
+ 
+ **************************************************************************
+ 
+ 
+##  COURSES:
+ 
++ Сomputer science (IT Academy);
++ website development (IT Academy);
++ JavaScript Manual on learnjavascript.ru (in progress);
++ RS Schools Course «JavaScript/Front-end. Stage 0» (in progress);
+
+******************************************************************************
+
+
+##  LANGUAGES:
+
+* Russian - Native;
+* Polish - Basic;
+* English - Intermediate;
+* French: - Intermediate;
+

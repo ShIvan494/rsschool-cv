@@ -30,6 +30,8 @@
  I believe that my ability to learn and acquire new skills will help me become an experienced Frontend Developer.
   
  ************************************************************************************************************************
+
+
 ##  SKILLS AND PROFICiENCY:
  
  

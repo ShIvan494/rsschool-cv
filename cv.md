@@ -8,10 +8,10 @@
 ## CONTACT INFORMATION:
 
 
-* Phone: +375296190308;
+* Phone: +48452144158;
 * E-mail: ivansharakhouski@gmail.com;
-* Viber: +375339122920;
-* WhatsApp: +375339122920.
+* Viber: +375296190308;
+* WhatsApp: +48452144158.
 
 ***************************************
 
@@ -39,6 +39,9 @@
 * Git, GitHub
 * VS Code;
 * Figma;
+* TYPESCRIPT (in progress);
+* NODE JS (in progress);
+* SCSS (in progress);
     
 ******************************************************************************************************************
 

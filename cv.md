@@ -8,14 +8,15 @@
 ## CONTACT INFORMATION:
 
 
-* Phone: +375296190308;
+* Phone: +48452144158;
 * E-mail: ivansharakhouski@gmail.com;
-* Viber: +375339122920;
-* WhatsApp: +375339122920.
+* Viber: +375296190308;
+* WhatsApp: +48452144158.
 
 ***************************************
 
 ## ABOUT MYSELF:
+
 
 
  I am a lawyer by education. I graduated from the Faculty of Law of the Belarusian State University. After graduating and to the present, I work in the field of bad debt recovery in financial companies and banks.
@@ -39,6 +40,9 @@
 * Git, GitHub
 * VS Code;
 * Figma;
+* TYPESCRIPT (in progress);
+* NODE JS (in progress);
+* SCSS (in progress);
     
 ******************************************************************************************************************
 

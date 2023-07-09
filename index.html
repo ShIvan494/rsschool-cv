@@ -1,16 +1,296 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta http-equiv="content-type" content="text/html; charset=utf-8"> <!-- set encoding -->
-<meta name="viewport" content="width=device-width, initial-scale=1"> <!-- page scale control -->
-<link rel="icon" href="./assets/images/logo.png" type="image/png"> <!-- set icon to web page-->
-<link rel="stylesheet" href="css/reset.css"> <!-- set reset file -->
-<link rel="stylesheet" href="css/normalize.css"> <!-- set normalize file -->
-<link rel="stylesheet" href="./css/fonts.css"> <!-- set fonts to project -->
-<link rel="stylesheet" href="./css/style_main.css"> <!-- plug CSS file -->
-<link rel="stylesheet" href="./css/media_main.css"> <!-- plug media file -->
-<title>Cozy House</title>
-</head>
-<body>
-</body>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"> <!-- set encoding -->
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- page scale control -->
+    <link rel="icon" href="assets/html.svg" type="image/png"> <!-- set logo -->
+    <link rel="stylesheet" href="./css/reset.css"> <!-- set reset file -->
+    <link rel="stylesheet" href="./css/normalize.css"> <!-- set normalize file -->
+    <link rel="stylesheet" href="./css/style.css"> <!-- plug CSS file -->
+    <link rel="stylesheet" href="./css/media.css"> <!--set media file-->
+    <title>rsschool-cv-html</title>
+  </head>
+  <body>
+    <div class="container" id="container">
+        <header class="header" id="header">
+            <div class="photo" id="photo"></div>
+            <div class="header_content_wrapp" id="header_content_wrapp">
+                <nav class="navigation" id="navigation">
+                    <ul class="nav-list" id="nav_list">
+                        <li class="nav_item" id="nav_item_1">
+                            <a href="#contact" class="nav_link" id="nav_link_1">
+                                CONTACT
+                            </a>
+                        </li>
+                        <li class="nav_item" id="nav_item_2">
+                            <a href="#accordition_item_1" class="nav_link" id="nav_link_2">
+                                MYSELF
+                            </a>
+                        </li>
+                        <li class="nav_item" id="nav_item_3">
+                            <a href="#skills" class="nav_link" id="nav_link_3">
+                                SKILLS
+                            </a>
+                        </li>
+                        <li class="nav_item" id="nav_item_4">
+                            <a href="#accordition_item_2" class="nav_link" id="nav_link_4">
+                                CODE
+                            </a>
+                        </li>
+                        <li class="nav_item" id="nav_item_5">
+                            <a href="#educat_title" class="nav_link" id="nav_link_5">
+                                COURSES
+                            </a>
+                        </li>
+                        <li class="nav_item" id="nav_item_6">
+                            <a href="#accordition_item_3" class="nav_link" id="nav_link_6">
+                                PROJECTS
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header_content" id="header_content">
+                    <h1 class="user_name" id="user_name">
+                        IVAN SHARAKHOUSKI
+                    </h1>
+                    <h2 class="user_profession" id="user_professio">
+                        FUTURE FRONT-END DEVELOPER
+                    </h2>
+                </div>
+            </div>
+        </header>
+        <main class="main" id="main">
+            <aside class="aside" id="aside">
+                <section class="educat" id="educat">
+                    <h2 class="educat_title" id="educat_title">COURSES:</h2>
+                    <ul class="cours_list" id="cours_list">
+                        <li class="cours_list_item" id="cours_list_item_1">
+                            <a href="https://ru.wikipedia.org/wiki/%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9_%D0%B3%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82" target="_blank"> 
+                                BSU (Lawyer)
+                            </a>
+                        </li>
+                        <li class="cours_list_item" id="cours_list_item_2">
+                            <a href="https://www.it-academy.by/" target="_blank">IT-academy.by</a>
+                        </li>
+                        <li class="cours_list_item" id="cours_list_item_3">
+                            <a href="https://rs.school/js-stage0/" target="_blank">RS School (JS - stage 0)</a>
+                        </li>
+                    </ul>
+                </section>
+                <section class="skills" id="skills">
+                    <h2 class="skills_title" id="skills_title">SKILLS</h2>
+                    <ul class="skill_list" id="skill_list">
+                        <li class="skill_list_item" id="skill_list_item_1">
+                            <img src="./assets/html.svg" alt="html_icon">
+                            <p>HTML</p>
+                        </li>
+                        <li class="skill_list_item" id="skill_list_item_2">
+                            <img src="./assets/css.svg" alt="CSS_icon">
+                            <p>CSS</p>
+                        </li>
+                        <li class="skill_list_item" id="skill_list_item_3">
+                            <img src="./assets/sass.svg" alt="sass_icon">
+                            <p>SASS</p>
+                        </li>
+                        <li class="skill_list_item" id="skill_list_item_4">
+                            <img src="./assets/bootstrap.svg" alt="bootstrap_icon">
+                            <p>Bootstrap</p>
+                        </li>
+                        <li class="skill_list_item" id="skill_list_item_5">
+                            <img src="./assets/javascript.svg" alt="js_icon">
+                            <p>Java Scpript</p>
+                        </li>
+                        <li class="skill_list_item" id="skill_list_item_6">
+                            <img src="./assets/github.svg"  alt="git_icon">
+                            <p>GitHub</p>
+                        </li>
+                        <li class="skill_list_item" id="skill_list_item_7">
+                            <img src="./assets/figma.svg" alt="figma_icon">
+                            <p>Figma</p>
+                        </li>
+                    </ul>
+                </section>
+                <section class="contact" id="contact">
+                    <h3 class="contact_title">
+                        CONTACTS
+                    </h3>
+                    <ul class="contact_list">
+                        <li class="contact_list_item" id="contact_list_item_1">
+                            <div class="icon_wrapper" id="icon_wrapper_1"></div>
+                            <p class="contact_content" id="contact_content_1">
+                                ivansharakhouski@gmail.com
+                            </p>
+                        </li>
+                        <li class="contact_list_item" id="contact_list_item_2">
+                            <div class="icon_wrapper" id="icon_wrapper_2"></div>
+                            <p class="contact_content" id="contact_content_2">
+                                +48452144158
+                            </p>
+                        </li>
+                        <li class="contact_list_item" id="contact_list_item_3">
+                            <div class="icon_wrapper" id="icon_wrapper_3"></div>
+                            <p class="contact_content" id="contact_content_3">
+                                +375296190308
+                            </p>
+                        </li>
+                        <li class="contact_list_item" id="contact_list_item_4">
+                            <div class="icon_wrapper" id="icon_wrapper_4"></div>
+                            <p class="contact_content" id="contact_content_4">
+                                +48452144158
+                            </p>
+                        </li>
+                    </ul>
+                </section>
+            </aside>
+            <div class="main_content_wrapp" id="main_content_wrapp">
+                <div class="accordition" id="accordition">
+                    <section class="accordition_item" id="accordition_item_1">
+                        <div class="accordition_title" id="accordition_title_1">
+                            <h2 class="accordition_title_content" id="accordition_title_content_1">
+                              ABOUT MYSELF
+                            </h2>
+                            <div class="accordition_title_arrow" id="accordition_title_arrow_1"></div>
+                        </div>
+                        <div class="accordition_body" id="accordition_body_1">
+                            <p class="accordition_body_content" id="accordition_body_content_1">
+                                I am a lawyer by education. I graduated from the Faculty of Law of the Belarusian State University.
+                                After graduating and to the present, I work in the field of bad debt recovery in financial companies and banks.
+                                A year ago, I became interested in the field of IT. I decided to start my acquaintance with my future profession
+                                by taking a course on the basics of computer science. In the process of training, I received information about
+                                various areas in the field of information technology. I focused on web development.
+                                I am interested in web development because this profession provides endless opportunities for professional growth,
+                                in addition, there are a huge number of free quality resources for self-education and a large community of developers.
+                                I believe that my ability to learn and acquire new skills will help me become an experienced Frontend Developer.
+                            </p>
+                            <div class="MY_STRENGTHS" id="MY_STRENGTHS">
+                                <h3 class="STRENGTHS_title" id="TRENGTHS_title">
+                                    MY STRENGTHS
+                                </h3>
+                                <ul class="STRENGTHS_list" id="STRENGTHS_ul">
+                                    <li class=" STRENGTHS_list_item" id="STRENGTHS_list_item_1">
+                                        Quick learner
+                                    </li>
+                                    <li class=" STRENGTHS_list_item" id="STRENGTHS_list_item_2">
+                                        Full immersion in the essence of the problems
+                                    </li>
+                                    <li class=" STRENGTHS_list_item" id="STRENGTHS_list_item_3">
+                                        Diligence
+                                    </li>
+                                    <li class=" STRENGTHS_list_item" id="STRENGTHS_list_item_4">
+                                        Team playing
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="lang_box" id="lang_box">
+                                <h3 class="lang_title" id="lang_title">
+                                    LANGUAGES:
+                                </h3>
+                                <div class="lang_item" id="lang_item_1">
+                                    <div class="lang_flag" id="lang_flag_1"></div>
+                                    <p class=" lang_text">
+                                        Russian - native speaker
+                                    </p>
+                                </div>
+                                <div class="lang_item" id="lang_item_2">
+                                    <div class="lang_flag" id="lang_flag_2"></div>
+                                    <p class=" lang_text">
+                                        English - A2 (B1 in proccess...)
+                                    </p>
+                                </div>
+                                <div class="lang_item" id="lang_item_3">
+                                    <div class="lang_flag" id="lang_flag_3"></div>
+                                    <p class=" lang_text">
+                                        French - A2 (B1 in proccess...)
+                                    </p>
+                                </div>
+                                <div class="lang_item" id="lang_item_4">
+                                    <div class="lang_flag" id="lang_flag_4"></div>
+                                    <p class=" lang_text">
+                                        Polish - A2 (B1 in proccess...)
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="accordition_item" id="accordition_item_2">
+                        <div class="accordition_title" id="accordition_title_2">
+                            <h2 class="accordition_title_content" id="accordition_title_content_2">
+                                CODE EXAMPLE
+                            </h2>
+                            <div class="accordition_title_arrow" id="accordition_title_arrow_2"></div>
+                        </div>
+                        <div class="accordition_body" id="accordition_body_2">
+                            <p class="accordition_body_content" id="accordition_body_content_2">
+                                A function to sort the array by the number of completed tasks by employees from highest to lowest.
+                            </p>
+                            <div class="code_exam" id="code_exam">
+                                <pre class="code_exam_pre" id="code_exam_pre">
+
+
+                                <span class="pre_span" id="pre_span_1">var tasksCompleted</span> = [
+
+                                { worker:'Anna', taskComp: 29 },
+                                { worker:'Serg', taskComp: 35 },
+                                { worker:'Elena', taskComp: 1},
+                                { worker:'Anton', taskComp: 99}
+                                    ]
+                                <span class="pre_span" id="pre_span_2">function compareTaskComp</span> (a,b) {
+
+                                    return (b.taskComp-a.taskComp)
+                                }
+
+                                <span class="pre_span" id="pre_span_3">tasksCompleted.sort</span> (compareTaskComp);
+                                console.log (tasksCompleted);
+
+
+                                </pre>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="accordition_item" id="accordition_item_3">
+                        <div class="accordition_title" id="accordition_title_3">
+                            <h2 class="accordition_title_content" id="accordition_title_content_3">
+                                PROJECTS
+                            </h2>
+                            <div class="accordition_title_arrow" id="accordition_title_arrow_3"></div>
+                        </div>
+                        <div class="accordition_body" id="accordition_body_3">
+                            <div class="accord_card" id="accord_card">
+                                <a href="https://shivan494.github.io/cssBayan/cssBayan/" target="_blank"><div class="accord_card_head" id="accord_card_head"></div></a>
+                                <div class="accord_card_art" id="accord_card_art">
+                                    <h3 class="accord_card_art_title" id="accord_card_art_title">
+                                        CSS Bayan
+                                    </h3>
+                                    <p class="accord_card_art_text" id="accord_card_art_text">
+                                        The CSS Bayan project is made using HTML 5 and CSS 3.
+                                        JS was not used when creating the project.
+                                        Is an example of a typical accordition.
+                                    </p>
+                                </div>
+                                <div class="accord_card_footer" id="accord_card_footer">
+                                    <img src="./assets/html.svg" alt="html_icon" class="accord_card_footer_html_icn" id="accord_card_footer_html_icn">
+                                    <img src="./assets/css.svg" alt="css_icon" class="accord_card_footer_css_icn" id="accord_card_footer_css_icn">
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </main>
+        <footer class="footer" id="footer">
+            <a href="https://github.com/ShIvan494" target="_blank">
+                <div class="git_box" id="git_box">
+                    <div class="git_logo" id="git_logo"></div>
+                    <p class="git_nick">
+                        SHIVAN494  2023
+                    </p>
+                </div>
+            </a>
+            <a href="https://rs.school/js-stage0/" target="_blank">
+                <div class="rss" id="rss"></div>
+            </a>
+        </footer>
+    </div>
+  <script src="./js/script.js"></script>
+  </body>
 </html>

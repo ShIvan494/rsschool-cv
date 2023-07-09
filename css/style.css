@@ -1,0 +1,526 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1300px;
+    background-color: #ffffff;
+}
+
+/*start header style*/
+
+.header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #343131;
+}
+
+.photo {
+    background: url("..//assets/photo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.header_content_wrapp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+}
+
+.navigation {
+    width: 100%;
+    height: 70px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(249, 191, 0, 0.963);
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.nav_item {
+    margin-right: 10px;
+    transition: all 0.2s;
+}
+
+.nav_item:last-child {
+    margin-right: 20px;
+}
+
+.nav_item:hover {
+    border-bottom:solid;
+    border-color: #000000;
+    border-width: 3px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+.header_content {
+    width: 100%;
+    height: 120px;
+    background-color: rgba(249, 191, 0, 0.963);
+    text-align: right;
+}
+
+.user_name {
+    margin-right: 20px;
+}
+
+.user_profession {
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+/*end header style*/
+
+/*start aside style*/
+
+.aside {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    transition:all, 2s;
+}
+
+.educat {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.educat_title {
+    color:#dacfcf
+}
+
+.cours_list_item {
+    margin-bottom: 10px;
+}
+
+.cours_list_item a {
+    text-decoration: none;
+    color: #f9bf00f6;
+    transition: all, 0.5s ;
+}
+
+.cours_list_item a:hover {
+    text-decoration: none;
+    color:#dacfcf;
+}
+
+.cours_list_item:first-child {
+    margin-top: 20px;
+}
+
+.skills {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.skills_title {
+    color:#dacfcf
+}
+
+.skill_list_item {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    transition: all,2s;
+}
+
+.skill_list_item:hover {
+    transform: scale(1.2);
+}
+
+.skill_list_item:first-child {
+    margin-top: 20px;
+}
+
+.skill_list_item p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9bf00f6;
+    margin-left: 10px;
+}
+
+.skills img {
+    width: 50px;
+    height: 50px;
+}
+
+.contact {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+.contact_title {
+    color:#dacfcf;
+    text-align: left;
+}
+
+.contact_list_item {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    transition: all,2s;
+}
+
+.contact_list_item:first-child {
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.contact_list_item:hover {
+    transform: scale(1.2);
+}
+
+.contact_list_item p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9bf00f6;
+    margin-left: 10px;
+}
+
+.icon_wrapper {
+    width:  45px;
+    height:  45px;
+    background: url("..//assets/icons8-электронная-почта-96.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#icon_wrapper_2 {
+    background: url("..//assets/icons8-phone.png");
+    width:  50px;
+    height:  50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#icon_wrapper_3 {
+    background: url("..//assets/icons8-viber-logo-with-hand-phone-receiver-under-chat-bubble-96.png");
+    width:  43px;
+    height:  43px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#icon_wrapper_4 {
+    background: url("..//assets/icons8-whatsapp-94.png");
+    width:  50px;
+    height:  50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/*end aside style*/
+
+/*start main style*/
+
+.main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.aside {
+    width: 300px;
+    background-color: #343131;
+}
+
+.main_content_wrapp {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 1000px;
+}
+
+.accordition {
+    width: 80%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.accordition_title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    border-bottom:solid;
+    border-color: #000000;
+    border-width: 3px;
+    border-radius: 10px;
+    background-color: #f9bf00f6;
+}
+
+.accordition_title_content {
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.accordition_title_arrow {
+    background: url("..//assets/accord_title_arrow_down.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 48px;
+    height: 48px;
+    margin-right: 10px;
+    transition: all 1.5s;
+
+}
+
+.accordition_title_arrow_click {
+    transform: rotate(180deg);
+    background: url("..//assets/accord_title_arrow_down.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 48px;
+    height: 48px;
+    transition: all 1.5s;
+}
+
+.accordition_body {
+    display: none;
+    transition: all, 2s;
+}
+
+.accordition_body_click {
+    display: block;
+}
+
+.accordition_body_content {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+}
+
+.MY_STRENGTHS {
+    margin: 20px;
+}
+
+.STRENGTHS_list {
+    margin-right: 20px;
+}
+
+.STRENGTHS_list_item {
+    margin-bottom:  10px;
+}
+
+.STRENGTHS_title {
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+.lang_box {
+    margin: 20px;
+}
+
+.lang_title {
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+.lang_item {
+    display: inline-flex;
+    margin-bottom:  30px;
+    margin-right: 30px;
+    transition: all,2s;
+}
+
+.lang_item:hover {
+    transform: scale(1.1);
+}
+
+.lang_flag {
+    background: url("..//assets/russian_flag.png");
+    width: 48px;
+    height: 48px;
+}
+
+#lang_flag_2 {
+    background: url("..//assets/english_flag.png");
+}
+
+#lang_flag_3 {
+    background: url("..//assets/french_flag.png");
+}
+
+#lang_flag_4 {
+    background: url("..//assets/polish_flag.png");
+}
+
+.lang_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    margin-left: 10px;
+}
+
+#accordition_body_content_2 {
+    text-align: center;
+}
+
+.lang_title {
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+.code_exam{
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.code_exam_pre {
+    text-align: justify;
+}
+
+.pre_span {
+    color:rgb(16, 16, 130);
+}
+
+.accord_card {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    transition: all, 2s;
+    width: 400px;
+    background-color: #f9bf00f6;
+}
+
+.accord_card:hover {
+    transform: rotate(360deg);
+}
+
+.accord_card_head {
+    width: 400px;
+    height: 275px;
+    background: url("..//assets/project_img_1.png");
+    border-radius: 30px 30px 0px 0px;
+}
+
+.accord_card_art {
+    width: 400px;
+    font-weight: bold;
+}
+
+.accord_card_art_title {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.accord_card_art_text {
+    margin-top:  20px;
+    margin-bottom: 40px;
+    margin-left:  20px;
+    margin-right:  20px;
+    text-align: justify;
+}
+
+.accord_card_footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    height: 150px;
+    background-color: #dacfcf;
+    border-radius: 0px 0px 30px 30px;
+}
+
+/*end main style*/
+
+/*start footer style*/
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9bf00f6;
+    width: 100%;
+    height: 200px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.git_box {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    opacity: 0.3;
+    transition: all, 2s;
+}
+
+.git_box:hover {
+    opacity: 1;
+}
+
+.git_logo {
+    width: 94px;
+    height: 94px;
+    background: url("..//assets/icons8-github-94.png");
+}
+
+.git_nick {
+    font-weight: bold;
+    font-size: 48px;
+    display: flex;
+    align-items: center;
+}
+
+.rss {
+    width: 200px;
+    height: 100px;
+    margin-right: 30px;
+    background: url("..//assets/logo-rsschool3.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+    transition: all, 1s;
+}
+
+.rss:hover {
+    opacity: 1;
+}
+
+/*end footer style*/

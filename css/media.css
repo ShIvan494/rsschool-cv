@@ -1,0 +1,343 @@
+@media all and (max-width: 1500px) {
+
+    .container {
+
+        max-width: 1000px ;
+
+    }
+
+    .setting-bar {
+
+        width: 1000px;
+
+    }
+
+    .navi {
+
+        width: 1000px;
+
+    }
+
+    .navi-list {
+
+        width: 1000px;
+
+    }
+
+    .header-content-wrap {
+
+        width: 1000px;
+
+    }
+
+    .main-container {
+
+        display: none;
+    }
+
+    .aside {
+
+    
+    }
+
+}
+
+@media all and (max-width: 1100px) {
+
+    .container {
+
+        max-width: 750px;
+
+    }
+
+    .setting-bar {
+
+        width: 750px;
+
+    }
+
+    .navi {
+
+        width: 750px;
+
+    }
+
+    .navi-list {
+
+        width: 750px;
+
+    }
+
+    .navi-link {
+
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 40px;
+
+    }
+
+    .header-content-wrap {
+
+        width: 750px;
+
+    }
+
+    .header-title {
+
+        line-height: 38px;
+        letter-spacing: 2px;
+        font-size: 30px;
+
+    }
+
+    .main-container {
+
+        width: 750px;
+
+    }
+
+    .footer {
+
+        font-size: 37px;
+    
+    }
+
+    .footer-icon {
+    
+        width: 75px;
+        height: 75px;
+    
+    }
+
+}
+
+@media all and (max-width: 775px) {
+
+    .container {
+
+        width: 100vw;
+
+    }
+
+    .header-content-wrap {
+
+        width: 100vw;
+
+    }
+
+    .setting-bar {
+
+        position: absolute;
+        display: none;
+
+    }
+
+    .navi {
+
+        position: absolute;
+        display: none;
+
+    }
+
+    .burger-menu-btn-item {
+
+        display: block;
+
+    }
+
+    .header-content-wrap {
+
+        height: 400px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-container {
+
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    .aside {
+
+        width: 100vw;
+        margin: 0px 0px 0px 0px;
+        border-right: none;
+        display: none;
+
+    }
+
+    .courses {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    .courses-list-item {
+
+        margin: 30px 0px 0px 0px;
+
+    }
+
+    .main {
+
+        width: 100vw;
+
+    }
+
+    .about-myself {
+
+        width: 100vw;
+    }
+
+    .footer {
+
+        width: 100vw;
+
+    }
+
+}
+
+@media all and (max-width: 450px) {
+
+    .burger-menu-btn {
+
+        width: 20px;
+        height: 20px;
+
+    }
+
+    .burger-menu-btn-item {
+
+        width: 20px;
+
+    }
+
+    .burger-menu-wrap {
+
+        width: 100vw;
+        height: 540px;
+
+    }
+
+    .burger-menu-list {
+
+        width: 80%;
+        height: 320px;
+
+    }
+
+    .header-title {
+
+        line-height: 25px;
+        letter-spacing: 1px;
+        font-size: 22px;
+
+    }
+
+    .footer {
+
+        font-size: 27px;
+
+    }
+
+    .footer-icon {
+
+        width: 60px;
+        height: 60px;
+        margin-left: 10px;
+        margin-right: 10px;
+
+    }
+
+}
+
+@media all and (max-width: 250px) {
+
+    .burger-menu-wrap {
+
+        height: 330px;
+
+    }
+
+    .burger-menu-list {
+
+        width: 80%;
+        height: 255px;
+
+    }
+
+    .burger-menu-link {
+
+        font-size: 12px;
+
+    }
+    .header-content-wrap {
+
+        height: 330px;
+
+    }
+
+    .header-title {
+
+        line-height: 20px;
+        letter-spacing: 1px;
+        font-size: 18px;
+
+    }
+
+    .footer-list {
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 150px;
+    
+    }
+
+        .footer {
+    
+            font-size: 18px;
+    
+        }
+    
+        .footer-icon {
+    
+            width: 40px;
+            height: 40px;
+            margin-left: 0px;
+            margin-right: 0px;
+    
+        }
+
+}
+
+@media all and (max-width: 190px) {
+
+    .burger-menu-btn {
+
+        width: 15px;
+        height: 15px;
+
+    }
+
+    .burger-menu-btn-item {
+
+        width: 15px;
+        border: 1px solid #ffff;
+
+    }
+
+    .header-title {
+
+        line-height: 20px;
+        font-size: 12px;
+
+    }
+
+}

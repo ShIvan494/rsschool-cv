@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -15,7 +19,8 @@ body {
     display: flex;
     flex-flow: column nowrap;
     position: relative;
-    width: 1560px;
+    max-width: 1560px;
+    width: 100%;
 }
 
 .page-avatar {
@@ -71,6 +76,7 @@ body {
     color: #f5f5f5;
     font-size: 16px;
     transition: color 0.3s ease;
+    cursor: pointer;
 }
 
 .setting-item:hover {
@@ -96,6 +102,7 @@ body {
     font-size: 16px;
     color: #f5f5f5;
     transition: color 0.3s ease;
+    cursor: pointer;
 }
 
 .navi-link:hover {
@@ -123,3 +130,61 @@ body {
 .page-title span {
     font-weight: 400;
 }
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.about-myself {
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    width: 100%;
+    height: 400px;
+    background: #f5f5f5;
+}
+
+.about-myself-content-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 200px;
+    margin: 30px 235px 100px 0;
+}
+
+.section-title {
+    font: bold 32px 'Playfair Display', serif;
+    color: #000;
+    letter-spacing: 0.5px;
+    text-align: center;
+    border-bottom: 1px solid #a87e4b;
+    display: inline-block;
+    padding-bottom: 8px;
+}
+.section-button {
+    padding: 12px 24px;
+    font: 600 16px 'Roboto', sans-serif;
+    color: #000;
+    background: transparent;
+    border: 2px solid #000;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+section button:hover {
+    background:#1e1a18;
+    transform: translateY(-2px);
+    color: #f5f5f5;
+}
+
+section button:active {
+    transform: translateY(0);
+    background: #1e1a18;
+    color: #f5f5f5;
+}
+
+

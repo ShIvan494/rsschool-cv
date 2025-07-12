@@ -1,0 +1,1 @@
+- Modify the CSS and HTML according to the BEM methodology

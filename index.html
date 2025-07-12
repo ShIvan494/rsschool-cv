@@ -47,13 +47,13 @@
                     Ivan Sharakhouski&#44; FeD
                 </h2>
                 <ul class="setting-list">
-                    <li class="setting-item" lang="en">
+                    <li class="setting-item" lang="en" role="button">
                         eng
                     </li>
-                    <li class="setting-item" lang="pl">
+                    <li class="setting-item" lang="pl" role="button">
                         pl
                     </li>
-                    <li class="setting-item" lang="ru">
+                    <li class="setting-item" lang="ru" role="button">
                         ru
                     </li>
                 </ul>
@@ -107,6 +107,29 @@
                     <button class="section-button">
                         About me
                     </button>
+                </div>
+            </section>
+            <section class="code-example" id="code">
+                <h2 class="section-title">
+                    Code example
+                </h2>
+                <div class="codeexample-content-wrap">
+                    <pre><code>
+                    const employees = [
+
+                    { name: "Anna", tasksCompleted: 42 },
+                    { name: "Ivan", tasksCompleted: 55 },
+                    { name: "Maria", tasksCompleted: 37 },
+                    { name: "Oleg", tasksCompleted: 61 },
+                    { name: "Kate", tasksCompleted: 29 }
+
+                    ];
+
+                    employees.sort((a, b) => b.tasksCompleted - a.tasksCompleted);
+                    </code></pre>
+                    <p class="code example-content-text">
+                        This function sorts the array by tasks completed
+                    </p>
                 </div>
             </section>
         </main>

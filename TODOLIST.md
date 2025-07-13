@@ -9,3 +9,4 @@
 - Testing and Support
 - Analytics Integration
 - Multi-language Support
+- translating

@@ -12,19 +12,14 @@
     <!-- Яндекс.Браузер -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="keywords" content="FrontEnd Developer in Wroclaw">
-    <meta name="description" content="FrontEnd Developer in Wroclaw looking for a work!">
+    <meta name="description"
+        content="Frontend Developer based in Wroclaw with skills in HTML, CSS, JavaScript, and responsive design.">
     <!-- Open Graph -->
     <meta property="og:title" content="Ivan Sharakhouski – Frontend Developer">
     <meta property="og:description" content="Frontend Developer based in Wroclaw, looking for new opportunities.">
-    <meta property="og:image" content="https://yourdomain.com/assets/img/og-preview.jpg"> <!--must change_-->
-    <meta property="og:url" content="https://yourdomain.com"> <!--must change_-->
+    <meta property="og:image" content="./assets/img/49574df8-7bc3-44d8-ada8-5b99e94d0d53.png">
+    <meta property="og:url" content="https://shivan494.github.io/rsschool-cv/">
     <meta property="og:type" content="website">
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Ivan Sharakhouski – Frontend Developer">
-    <meta name="twitter:description" content="Frontend Developer based in Wroclaw, looking for new opportunities.">
-    <meta name="twitter:image" content="https://yourdomain.com/assets/img/og-preview.jpg"><!--must change_-->
-    <meta name="twitter:site" content="@YourTwitterHandle"> <!--must change_-->
     <!-- favicon -->
     <link rel="apple-touch-icon" href="./assets/favicon/apple-touch-icon.png"><!-- 180×180 -->
     <link rel="icon" href="./favicon.ico"><!-- 32×32 -->
@@ -40,7 +35,7 @@
     <!-- normalize default style -->
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/sprite-50.css">
+    <link rel="stylesheet" href="./css/modal-window.css">
     <link rel="stylesheet" href="./css/media.css">
 <title>Ivan Sharakhouski | Frontend Developer CV</title>
 </head>
@@ -50,7 +45,7 @@
         <div class="navi-wrap">
             <div class="setting-bar">
                 <h2 class="logo">
-                    Ivan Sharakhouski&#44; FeD
+                    <a href="#top" class="logo">Ivan Sharakhouski&#44; FeD</a>
                 </h2>
                 <ul class="setting-list">
                     <li class="setting-item" lang="en">
@@ -104,6 +99,208 @@
                 Ivan Sharakhouski&#44;<br><span>frontend developer</span>
             </h1>
         </header>
+        <main class="main">
+            <section class="about-myself" id="myself">
+                <div class="about-myself-content-wrap">
+                    <h2 class="section-title">
+                        About Myself
+                    </h2>
+                    <button class="section-button">
+                        About me
+                    </button>
+                </div>
+            </section>
+            <section class="code-example" id="code">
+                <h2 class="section-title">
+                    Code example
+                </h2>
+                <div class="codeexample-content-wrap">
+                    <pre><code>
+                    const employees = [
+
+                    { name: "Anna", tasksCompleted: 42 },
+                    { name: "Ivan", tasksCompleted: 55 },
+                    { name: "Maria", tasksCompleted: 37 },
+                    { name: "Oleg", tasksCompleted: 61 },
+                    { name: "Kate", tasksCompleted: 29 }
+
+                    ];
+
+                    employees.sort((a, b) =&gt; b.tasksCompleted - a.tasksCompleted);
+                    </code></pre>
+                    <p class="code example-content-text">
+                        This function sorts the array by tasks completed
+                    </p>
+                </div>
+            </section>
+            <section class="skills" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul class="skills__list">
+                    <li class="skills__item">
+                        <span class="skills__name">HTML</span>
+                        <progress class="skills__bar" max="100" value="95">95&#37;</progress>
+                        <span class="skills__percent">95&#37;</span>
+                    </li>
+                    <li class="skills__item">
+                        <span class="skills__name">CSS &#40;Flex&#44; Grid&#44; SCSS&#41;</span>
+                        <progress class="skills__bar" max="100" value="90">90&#37;</progress>
+                        <span class="skills__percent">90&#37;</span>
+                    </li>
+                    <li class="skills__item">
+                        <span class="skills__name">JavaScript &#40;ES6&#43;&#41;</span>
+                        <progress class="skills__bar" max="100" value="85">85&#37;</progress>
+                        <span class="skills__percent">85&#37;</span>
+                    </li>
+                    <li class="skills__item">
+                        <span class="skills__name">DOM Manipulation</span>
+                        <progress class="skills__bar" max="100" value="80">80&#37;</progress>
+                        <span class="skills__percent">80&#37;</span>
+                    </li>
+                    <li class="skills__item">
+                        <span class="skills__name">Responsive Design</span>
+                        <progress class="skills__bar" max="100" value="85">85&#37;</progress>
+                        <span class="skills__percent">85&#37;</span>
+                    </li>
+                    <li class="skills__item">
+                        <span class="skills__name">BEM &#47; SCSS</span>
+                        <progress class="skills__bar" max="100" value="80">80&#37;</progress>
+                        <span class="skills__percent">80&#37;</span>
+                    </li>
+                    <li class="skills__item">
+                        <span class="skills__name">Git &#47; GitHub</span>
+                        <progress class="skills__bar" max="100" value="75">75&#37;</progress>
+                        <span class="skills__percent">75&#37;</span>
+                    </li>
+                </ul>
+            </section>
+            <section class="projects" id="projects">
+                <h2 class="section-title">Projects</h2>
+                <div class="projects__grid">
+                    <div class="project-card project1">
+                        <div class="project-card__overlay">
+                            <h3 class="project-card__title">CV&#45;Site</h3>
+                            <a href="https://shivan494.github.io/rsschool-cv/" target="_blank" class="section-button" rel="noopener">Visit</a>
+                        </div>
+                    </div>
+                    <div class="project-card project2">
+                        <div class="project-card__overlay">
+                            <h3 class="project-card__title">Empty</h3>
+                            <a href="#" target="_blank" class="section-button" rel="noopener">Visit</a>
+                        </div>
+                    </div>
+                    <div class="project-card project3">
+                        <div class="project-card__overlay">
+                            <h3 class="project-card__title">Empty</h3>
+                            <a href="#" target="_blank" class="section-button" rel="noopener">Visit</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="section-wrap">
+                <section class="contacts" id="contacts">
+                    <h2 class="section-title">
+                        Contacts
+                    </h2>
+                    <ul class="contacts__info">
+                        <li>
+                            <a href="tel:+48452144158" class="contacts__link">&#43;48 452 144 158</a>
+                        </li>
+                        <li>
+                            <a href="https://mail.google.com/mail/?view=cm&to=ivansharakhouski@gmail.com" class="contacts__link" target="_blank" rel="noopener">
+                                ivansharakhouski@gmail.com
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.google.com/maps/place/Wrocław,+Poland" class="contacts__link" target="_blank" rel="noopener">
+                                Wrocław, Poland
+                            </a>
+                        </li>
+                        <li>
+                            <ul class="contacts__socials">
+                                <li>
+                                    <a href="https://github.com/ShIvan494" class="contacts__icon" target="_blank" aria-label="GitHub" rel="noopener">
+                                        <img src="./assets/icon/github-logo.svg" alt="GitHub icon">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/ivan-sharakhouski-ab4686330/" class="contacts__icon" target="_blank" aria-label="LinkedIn" rel="noopener">
+                                        <img src="./assets/icon/likdyn-logo.svg" alt="LinkedIn icon">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://discord.com/users/1045011071804641320" class="contacts__icon" target="_blank" aria-label="Discord" rel="noopener">
+                                        <img src="./assets/icon/discord-logo.svg" alt="Discord icon">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.facebook.com/profile.php?id=100002189359371" class="contacts__icon" target="_blank" aria-label="Facebook" rel="noopener">
+                                        <img src="./assets/icon/facebook-logo.svg" alt="Facebook icon">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://wa.me/48452144158" class="contacts__icon" target="_blank" aria-label="WhatsApp" rel="noopener">
+                                        <img src="./assets/icon/WA-logo.svg" alt="WhatsApp icon">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://t.me/Ivanslansk" class="contacts__icon" target="_blank" aria-label="Telegram" rel="noopener">
+                                        <img src="./assets/icon/telegram-logo.svg" alt="Telegram icon">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="viber://chat?number=+48452144158" class="contacts__icon" target="_blank" aria-label="Viber" rel="noopener">
+                                        <img src="./assets/icon/viber-logo.svg" alt="Viber icon">
+                                    </a>
+                                    </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+                <section class="courses" id="courses">
+                    <h2 class="section-title">Courses</h2>
+                    <ul class="education__list">
+                        <li class="education__item">
+                            <a href="https://law.bsu.by/" class="education__link" target="_blank" rel="noopener">
+                                Faculty of Law&#44; Belarusian State University
+                            </a>
+                        </li>
+                        <li class="education__item">
+                            <a href="https://rs.school/courses/javascript-ru" class="education__link" target="_blank" rel="noopener">
+                                RS School &#40;Frontend Course&#41;
+                            </a>
+                        </li>
+                        <li class="education__item">
+                            <a href="https://www.it-academy.by/" class="education__link" target="_blank" rel="noopener">
+                                Hi-Tech Park Educational Center&#44; Minsk
+                            </a>
+                        </li>
+                        <li class="education__item">
+                            <span class="education__link">Languages:</span>
+                            <ul class="language__list">
+                                <li class="language__item">
+                                    <span class="language__name">Polish</span> – <span class="language__level">B2</span>
+                                </li>
+                                <li class="language__item">
+                                    <span class="language__name">English</span> – <span class="language__level">B1</span>
+                                </li>
+                                <li class="language__item">
+                                    <span class="language__name">Russian</span> – <span class="language__level">Native</span>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </main>
+        <footer class="footer">
+            <a href="https://rs.school/courses/javascript-ru" target="_blank" rel="noopener noreferrer">
+                <img src="./assets/icon/rs-school-logo.svg" alt="RS School logo" title="RS School logo" class="rs-school-logo">
+            </a>
+            <a href="https://github.com/shivan494/" target="_blank" rel="noopener noreferrer">
+                <img src="./assets/icon/github-icon.svg" alt="Github logo" title="Github logo" class="github-icon">
+            </a>
+        </footer>
     </div>
+    <script src="../rsschool-cv/js/modalWindow.js"></script>
 </body>
 </html>

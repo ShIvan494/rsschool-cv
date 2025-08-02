@@ -40,81 +40,81 @@
 <title>Ivan Sharakhouski | Frontend Developer CV</title>
 </head>
 <body>
-    <div class="container">
+    <div class="page">
         <img class="page-avatar" src="./assets/img/avatarka.png" alt="Ivan Sharakhouski avatar">
-        <div class="navi-wrap">
-            <div class="setting-bar">
-                <h2 class="logo">
-                    <a href="#top" class="logo">Ivan Sharakhouski&#44; FeD</a>
+        <div class="header">
+            <div class="header__settings">
+                <h2 class="header__logo">
+                    <a href="#top" class="header__logo-link">Ivan Sharakhouski&#44; FeD</a>
                 </h2>
-                <ul class="setting-list">
-                    <li class="setting-item" lang="en">
+                <ul class="header__lang-list">
+                    <li class="header__lang-item" lang="en">
                         eng
                     </li>
-                    <li class="setting-item" lang="pl">
+                    <li class="header__lang-item" lang="pl">
                         pl
                     </li>
-                    <li class="setting-item" lang="ru">
+                    <li class="header__lang-item" lang="ru">
                         ru
                     </li>
                 </ul>
             </div>
-            <nav class="navi">
-                <ul class="navi-list">
-                    <li class="navi-item">
-                        <a class="navi-link" href="#contacts" data-translate-key="navi-link-1">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacts" data-translate-key="navi-link-1">
                             Contacts
                         </a>
                     </li>
-                    <li class="navi-item">
-                        <a class="navi-link" href="#myself" data-translate-key="navi-link-2">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#myself" data-translate-key="navi-link-2">
                             Myself
                         </a>
                     </li>
-                    <li class="navi-item" id="navi-item-3">
-                        <a class="navi-link" href="#skills" data-translate-key="navi-link-3">
+                    <li class="nav-item" id="navi-item-3">
+                        <a class="nav-link" href="#skills" data-translate-key="navi-link-3">
                             Skills
                         </a>
                     </li>
-                    <li class="navi-item">
-                        <a class="navi-link" href="#code" data-translate-key="navi-link-4">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#code" data-translate-key="navi-link-4">
                             Code
                         </a>
                     </li>
-                    <li class="navi-item">
-                        <a class="navi-link" href="#courses" data-translate-key="navi-link-5">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#courses" data-translate-key="navi-link-5">
                             Courses
                         </a>
                     </li>
-                    <li class="navi-item">
-                        <a class="navi-link" href="#projects" data-translate-key="navi-link-6">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects" data-translate-key="navi-link-6">
                             Projects
                         </a>
                     </li>
                 </ul>
             </nav>
         </div>
-        <header class="header">
-            <h1 class="page-title">
+        <header class="page-header">
+            <h1 class="page-header__title">
                 Ivan Sharakhouski&#44;<br><span>frontend developer</span>
             </h1>
         </header>
-        <main class="main">
-            <section class="about-myself" id="myself">
-                <div class="about-myself-content-wrap">
-                    <h2 class="section-title">
+        <main class="content">
+            <section class="about" id="myself">
+                <div class="about__content">
+                    <h2 class="about__title section-title">
                         About Myself
                     </h2>
-                    <button class="section-button">
+                    <button class="about__button section-button">
                         About me
                     </button>
                 </div>
             </section>
-            <section class="code-example" id="code">
-                <h2 class="section-title">
+            <section class="code" id="code">
+                <h2 class="code__title section-title">
                     Code example
                 </h2>
-                <div class="codeexample-content-wrap">
+                <div class="code__content">
                     <pre><code>
                     const employees = [
 
@@ -128,13 +128,13 @@
 
                     employees.sort((a, b) =&gt; b.tasksCompleted - a.tasksCompleted);
                     </code></pre>
-                    <p class="code example-content-text">
+                    <p class="code__text">
                         This function sorts the array by tasks completed
                     </p>
                 </div>
             </section>
             <section class="skills" id="skills">
-                <h2 class="section-title">Skills</h2>
+                <h2 class="skills__title section-title">Skills</h2>
                 <ul class="skills__list">
                     <li class="skills__item">
                         <span class="skills__name">HTML</span>
@@ -174,81 +174,81 @@
                 </ul>
             </section>
             <section class="projects" id="projects">
-                <h2 class="section-title">Projects</h2>
+                <h2 class="projects__title section-title">Projects</h2>
                 <div class="projects__grid">
-                    <div class="project-card project1">
+                    <article class="project-card project-card--cv-site">
                         <div class="project-card__overlay">
                             <h3 class="project-card__title">CV&#45;Site</h3>
-                            <a href="https://shivan494.github.io/rsschool-cv/" target="_blank" class="section-button" rel="noopener">Visit</a>
+                            <a href="https://shivan494.github.io/rsschool-cv/" target="_blank" class="project-cardbutton section-button" rel="noopener">Visit</a>
                         </div>
-                    </div>
+                    </article>
                     <div class="project-card project2">
                         <div class="project-card__overlay">
                             <h3 class="project-card__title">Empty</h3>
-                            <a href="#" target="_blank" class="section-button" rel="noopener">Visit</a>
+                            <a href="#" target="_blank" class="project-cardbutton section-button" rel="noopener">Visit</a>
                         </div>
                     </div>
                     <div class="project-card project3">
                         <div class="project-card__overlay">
                             <h3 class="project-card__title">Empty</h3>
-                            <a href="#" target="_blank" class="section-button" rel="noopener">Visit</a>
+                            <a href="#" target="_blank" class="project-cardbutton section-button" rel="noopener">Visit</a>
                         </div>
                     </div>
                 </div>
             </section>
             <div class="section-wrap">
                 <section class="contacts" id="contacts">
-                    <h2 class="section-title">
+                    <h2 class="contacts__title section-title">
                         Contacts
                     </h2>
-                    <ul class="contacts__info">
-                        <li>
+                    <ul class="contacts__list">
+                        <li class="contacts__item">
                             <a href="tel:+48452144158" class="contacts__link">&#43;48 452 144 158</a>
                         </li>
-                        <li>
+                        <li class="contacts__item">
                             <a href="https://mail.google.com/mail/?view=cm&to=ivansharakhouski@gmail.com" class="contacts__link" target="_blank" rel="noopener">
                                 ivansharakhouski@gmail.com
                             </a>
                         </li>
-                        <li>
+                        <li class="contacts__item">
                             <a href="https://www.google.com/maps/place/Wrocław,+Poland" class="contacts__link" target="_blank" rel="noopener">
                                 Wrocław, Poland
                             </a>
                         </li>
-                        <li>
-                            <ul class="contacts__socials">
-                                <li>
-                                    <a href="https://github.com/ShIvan494" class="contacts__icon" target="_blank" aria-label="GitHub" rel="noopener">
+                        <li class="contacts__item">
+                            <ul class="contacts__social-list">
+                                <li class="contacts__social-item">
+                                    <a href="https://github.com/ShIvan494" class="contacts__social-link" target="_blank" aria-label="GitHub" rel="noopener">
                                         <img src="./assets/icon/github-logo.svg" alt="GitHub icon">
                                     </a>
                                 </li>
-                                <li>
-                                    <a href="https://www.linkedin.com/in/ivan-sharakhouski-ab4686330/" class="contacts__icon" target="_blank" aria-label="LinkedIn" rel="noopener">
+                                <li class="contacts__social-item">
+                                    <a href="https://www.linkedin.com/in/ivan-sharakhouski-ab4686330/" class="contacts__social-link" target="_blank" aria-label="LinkedIn" rel="noopener">
                                         <img src="./assets/icon/likdyn-logo.svg" alt="LinkedIn icon">
                                     </a>
                                 </li>
-                                <li>
-                                    <a href="https://discord.com/users/1045011071804641320" class="contacts__icon" target="_blank" aria-label="Discord" rel="noopener">
+                                <li class="contacts__social-item">
+                                    <a href="https://discord.com/users/1045011071804641320" class="contacts__social-link" target="_blank" aria-label="Discord" rel="noopener">
                                         <img src="./assets/icon/discord-logo.svg" alt="Discord icon">
                                     </a>
                                 </li>
-                                <li>
-                                    <a href="https://www.facebook.com/profile.php?id=100002189359371" class="contacts__icon" target="_blank" aria-label="Facebook" rel="noopener">
+                                <li class="contacts__social-item">
+                                    <a href="https://www.facebook.com/profile.php?id=100002189359371" class="contacts__social-link" target="_blank" aria-label="Facebook" rel="noopener">
                                         <img src="./assets/icon/facebook-logo.svg" alt="Facebook icon">
                                     </a>
                                 </li>
-                                <li>
-                                    <a href="https://wa.me/48452144158" class="contacts__icon" target="_blank" aria-label="WhatsApp" rel="noopener">
+                                <li class="contacts__social-item">
+                                    <a href="https://wa.me/48452144158" class="contacts__social-link" target="_blank" aria-label="WhatsApp" rel="noopener">
                                         <img src="./assets/icon/WA-logo.svg" alt="WhatsApp icon">
                                     </a>
                                 </li>
-                                <li>
-                                    <a href="https://t.me/Ivanslansk" class="contacts__icon" target="_blank" aria-label="Telegram" rel="noopener">
+                                <li class="contacts__social-item">
+                                    <a href="https://t.me/Ivanslansk" class="contacts__social-link" target="_blank" aria-label="Telegram" rel="noopener">
                                         <img src="./assets/icon/telegram-logo.svg" alt="Telegram icon">
                                     </a>
                                 </li>
-                                <li>
-                                    <a href="viber://chat?number=+48452144158" class="contacts__icon" target="_blank" aria-label="Viber" rel="noopener">
+                                <li class="contacts__social-item">
+                                    <a href="viber://chat?number=+48452144158" class="contacts__social-link" target="_blank" aria-label="Viber" rel="noopener">
                                         <img src="./assets/icon/viber-logo.svg" alt="Viber icon">
                                     </a>
                                     </li>
@@ -256,8 +256,8 @@
                         </li>
                     </ul>
                 </section>
-                <section class="courses" id="courses">
-                    <h2 class="section-title">Courses</h2>
+                <section class="education" id="courses">
+                    <h2 class="education__title section-title">Courses</h2>
                     <ul class="education__list">
                         <li class="education__item">
                             <a href="https://law.bsu.by/" class="education__link" target="_blank" rel="noopener">
@@ -275,16 +275,16 @@
                             </a>
                         </li>
                         <li class="education__item">
-                            <span class="education__link">Languages:</span>
-                            <ul class="language__list">
-                                <li class="language__item">
-                                    <span class="language__name">Polish</span> – <span class="language__level">B2</span>
+                            <span class="education__label">Languages:</span>
+                            <ul class="language-list">
+                                <li class="language-list__item">
+                                    <span class="language-list__name">Polish</span> – <span class="language-list__level">B2</span>
                                 </li>
                                 <li class="language__item">
-                                    <span class="language__name">English</span> – <span class="language__level">B1</span>
+                                    <span class="language-list__name">English</span> – <span class="language-list__level">B1</span>
                                 </li>
                                 <li class="language__item">
-                                    <span class="language__name">Russian</span> – <span class="language__level">Native</span>
+                                    <span class="language-list__name">Russian</span> – <span class="language-list__level">Native</span>
                                 </li>
                             </ul>
                         </li>
@@ -293,11 +293,11 @@
             </div>
         </main>
         <footer class="footer">
-            <a href="https://rs.school/courses/javascript-ru" target="_blank" rel="noopener noreferrer">
-                <img src="./assets/icon/rs-school-logo.svg" alt="RS School logo" title="RS School logo" class="rs-school-logo">
+            <a href="https://rs.school/courses/javascript-ru" target="_blank" rel="noopener noreferrer" class="footer__link">
+                <img src="./assets/icon/rs-school-logo.svg" alt="RS School logo" title="RS School logo" class="footer__logo">
             </a>
-            <a href="https://github.com/shivan494/" target="_blank" rel="noopener noreferrer">
-                <img src="./assets/icon/github-icon.svg" alt="Github logo" title="Github logo" class="github-icon">
+            <a href="https://github.com/shivan494/" target="_blank" rel="noopener noreferrer" class="footer__link">
+                <img src="./assets/icon/github-icon.svg" alt="Github logo" title="Github logo" class="footer__icon">
             </a>
         </footer>
     </div>

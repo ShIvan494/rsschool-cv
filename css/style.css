@@ -61,10 +61,14 @@ body {
 }
 
 .header__logo {
+    margin-left: 20px;
+}
+
+.header__logo-link {
     font: 700 28px 'Playfair Display', serif;
     letter-spacing: 0.5px;
     color: #f5f5f5;
-    margin-left: 20px;
+    text-decoration: none;
 }
 
 .header__lang-list {
@@ -239,8 +243,9 @@ body {
 }
 
 .skills__item:hover {
-    transform: scaleY(1.1);
+    transform: scaleY(1.2);
     z-index: 10;
+    cursor: pointer;
 }
 
 .skills__name {
@@ -369,6 +374,7 @@ body {
     font: 600 28px 'Playfair Display', serif;
     margin-bottom: 40px;
     letter-spacing: 1px;
+    text-align: left;
 }
 
 .contacts {
@@ -420,9 +426,8 @@ body {
     transform: scaleX(1);
 }
 
-.contacts__social-lists {
+.contacts__social-list {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     gap: 16px;
     margin-top: 10px;
@@ -438,7 +443,7 @@ body {
     opacity: 0.85;
 }
 
-.contacts__icon:hover img {
+.contacts__social-link img:hover {
     transform: scale(1.15);
     filter: brightness(1.5);
     opacity: 1;
@@ -452,6 +457,10 @@ body {
 }
 
 .education__title {
+    color: #f5f5f5;
+    font: 600 28px 'Playfair Display', serif;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
     margin-bottom: 40px;
     text-align: right;
 }
@@ -520,6 +529,7 @@ body {
 .language-list__level {
     font-style: italic;
     opacity: 0.85;
+    color:#ffd700;
 }
 
 .footer {

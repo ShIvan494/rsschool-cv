@@ -1,343 +1,213 @@
-@media all and (max-width: 1500px) {
+@media all and (max-width: 1200px) {
 
-    .container {
-
-        max-width: 1000px ;
-
+    .page-avatar {
+        top: 150px;
+        left: 50px;
+        width: 300px;
+        height: 350px;
     }
 
-    .setting-bar {
-
-        width: 1000px;
-
+    .about__content {
+        margin-right: 200px;
     }
 
-    .navi {
-
-        width: 1000px;
-
+    .skills {
+        padding: 0 80px;
     }
 
-    .navi-list {
-
-        width: 1000px;
-
+    .projects {
+        padding: 0 60px;
     }
-
-    .header-content-wrap {
-
-        width: 1000px;
-
-    }
-
-    .main-container {
-
-        display: none;
-    }
-
-    .aside {
-
-    
-    }
-
 }
 
-@media all and (max-width: 1100px) {
+@media all and (max-width: 992px) {
 
-    .container {
-
-        max-width: 750px;
-
+    .page-header__title {
+        font-size: 36px;
+        margin: 0 50px 30px 0;
     }
 
-    .setting-bar {
-
-        width: 750px;
-
-    }
-
-    .navi {
-
-        width: 750px;
-
-    }
-
-    .navi-list {
-
-        width: 750px;
-
-    }
-
-    .navi-link {
-
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 40px;
-
-    }
-
-    .header-content-wrap {
-
-        width: 750px;
-
-    }
-
-    .header-title {
-
-        line-height: 38px;
-        letter-spacing: 2px;
-        font-size: 30px;
-
-    }
-
-    .main-container {
-
-        width: 750px;
-
-    }
-
-    .footer {
-
-        font-size: 37px;
-    
-    }
-
-    .footer-icon {
-    
-        width: 75px;
-        height: 75px;
-    
-    }
-
-}
-
-@media all and (max-width: 775px) {
-
-    .container {
-
-        width: 100vw;
-
-    }
-
-    .header-content-wrap {
-
-        width: 100vw;
-
-    }
-
-    .setting-bar {
-
-        position: absolute;
-        display: none;
-
-    }
-
-    .navi {
-
-        position: absolute;
-        display: none;
-
-    }
-
-    .burger-menu-btn-item {
-
-        display: block;
-
-    }
-
-    .header-content-wrap {
-
-        height: 400px;
+    .about,
+    .skills,
+    .code,
+    .projects,
+    .section-wrap {
         flex-direction: column;
-        justify-content: center;
         align-items: center;
+        padding: 20px;
+        height: auto;
     }
 
-    .main-container {
-
-        flex-direction: column;
-        width: 100vw;
+    .skills__list,
+    .projects__grid,
+    .contacts,
+    .education {
+        width: 100%;
+        padding: 0;
     }
 
-    .aside {
-
-        width: 100vw;
-        margin: 0px 0px 0px 0px;
+    .contacts {
         border-right: none;
-        display: none;
-
+        padding-right: 0;
     }
 
-    .courses {
+    .section-wrap {
+        gap: 40px;
+    }
 
+}
+
+@media all and (max-width: 768px) {
+
+    .header__burger {
+        display: flex;
+    }
+
+    .header {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 0%;
+        height: 100vh;
+        background-color: #1e1a18;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+        z-index: 1000;
+    }
+
+    .header__nav--active {
         display: flex;
         flex-direction: column;
+        width: 100%;
+        height: 100vh;
         justify-content: center;
+        align-items: start;
+        }
+
+
+    .header__settings {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-list {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .header__nav-list {
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+    .header__nav-link {
+        font-size: 18px;
+        padding: 10px 20px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .section {
+        padding: 40px 20px;
+    }
+
+    .skills,
+    .about,
+    .projects {
+        flex-direction: column;
+        padding: 20px;
+        height: auto;
+    }
+
+    .skills__list,
+    .about__text,
+    .projects__grid {
+        width: 100%;
+    }
+
+    .project-card {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .page-avatar {
+        display: none;
+    }
+
+    .section-title {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .contacts__title {
+        font-size: 22px;
+    }
+
+    .contacts__info {
+        font-size: 16px;
+        flex-direction: column;
         align-items: center;
-    
     }
 
-    .courses-list-item {
-
-        margin: 30px 0px 0px 0px;
-
+    .contacts__info-item {
+        text-align: center;
     }
 
-    .main {
+}
 
-        width: 100vw;
+@media (max-width: 480px) {
 
+    .section {
+        padding: 30px 16px;
     }
 
-    .about-myself {
-
-        width: 100vw;
+    .section-title,
+    .contacts__title,
+    .education__title {
+        font-size: 20px;
+        text-align: center;
     }
 
-    .footer {
+    .skills__item,
+    .about__text,
+    .contacts__info-item,
+    .education__text {
+        font-size: 14px;
+    }
 
-        width: 100vw;
+    .project-card__title {
+        font-size: 16px;
+    }
 
+    .project-card__description {
+        font-size: 13px;
+    }
+
+    .contacts__info {
+        gap: 12px;
+    }
+
+    .footer__text {
+        font-size: 12px;
+        text-align: center;
     }
 
 }
 
 @media all and (max-width: 450px) {
 
-    .burger-menu-btn {
-
-        width: 20px;
-        height: 20px;
-
-    }
-
-    .burger-menu-btn-item {
-
-        width: 20px;
-
-    }
-
-    .burger-menu-wrap {
-
-        width: 100vw;
-        height: 540px;
-
-    }
-
-    .burger-menu-list {
-
-        width: 80%;
-        height: 320px;
-
-    }
-
-    .header-title {
-
-        line-height: 25px;
-        letter-spacing: 1px;
-        font-size: 22px;
-
-    }
-
-    .footer {
-
-        font-size: 27px;
-
-    }
-
-    .footer-icon {
-
-        width: 60px;
-        height: 60px;
-        margin-left: 10px;
-        margin-right: 10px;
-
-    }
 
 }
 
 @media all and (max-width: 250px) {
 
-    .burger-menu-wrap {
-
-        height: 330px;
-
-    }
-
-    .burger-menu-list {
-
-        width: 80%;
-        height: 255px;
-
-    }
-
-    .burger-menu-link {
-
-        font-size: 12px;
-
-    }
-    .header-content-wrap {
-
-        height: 330px;
-
-    }
-
-    .header-title {
-
-        line-height: 20px;
-        letter-spacing: 1px;
-        font-size: 18px;
-
-    }
-
-    .footer-list {
-    
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        height: 150px;
-    
-    }
-
-        .footer {
-    
-            font-size: 18px;
-    
-        }
-    
-        .footer-icon {
-    
-            width: 40px;
-            height: 40px;
-            margin-left: 0px;
-            margin-right: 0px;
-    
-        }
-
+   
 }
 
 @media all and (max-width: 190px) {
 
-    .burger-menu-btn {
-
-        width: 15px;
-        height: 15px;
-
-    }
-
-    .burger-menu-btn-item {
-
-        width: 15px;
-        border: 1px solid #ffff;
-
-    }
-
-    .header-title {
-
-        line-height: 20px;
-        font-size: 12px;
-
-    }
-
+   
 }

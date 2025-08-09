@@ -1,11 +1,20 @@
-// Get burger-menu button
+// Get html elements
 let burgerBtn = document.querySelector('.header__burger');
+let burgerBody = document.querySelector('.header');
+let headerSetting = document.querySelector('.header__settings');
+let nav = document.querySelector('.nav');
+let pageAnchor = document.querySelectorAll ('.nav-link');
+console.log (pageAnchor);
 
-// switch class
-function openBurgerMenu () {
+// switch header classname
+function switchHeaderClassName () {
     let burgerBody = document.querySelector ('.header')
-    burgerBody.classList.toggle('header__nav--active');
+    burgerBody.classList.toggle ('header__nav--active');
 }
 
-burgerBtn.addEventListener ('click', openBurgerMenu());
+pageAnchor.forEach(link => {
+    link.addEventListener('click', openBurgerMenu);
+});
+
+burgerBtn.addEventListener ('click', openBurgerMenu);
 

@@ -85,7 +85,6 @@ body {
     background: #1e1a18;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
-.header__lang-item-button
 
 .header__logo {
     margin-left: 20px;
@@ -114,6 +113,10 @@ body {
 
 .header__lang-item:hover,
 .nav-link:hover {
+    color: #a87e4b;
+}
+
+.header__lang-item--active {
     color: #a87e4b;
 }
 

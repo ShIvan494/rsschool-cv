@@ -8,13 +8,14 @@ console.log (pageAnchor);
 
 // switch header classname
 function switchHeaderClassName () {
-    let burgerBody = document.querySelector ('.header')
+    let burgerBody = document.querySelector ('.header');
     burgerBody.classList.toggle ('header__nav--active');
+     burgerBtn.classList.toggle('burger--active');
 }
 
 pageAnchor.forEach(link => {
-    link.addEventListener('click', openBurgerMenu);
+    link.addEventListener('click', switchHeaderClassName);
 });
 
-burgerBtn.addEventListener ('click', openBurgerMenu);
+burgerBtn.addEventListener ('click', switchHeaderClassName);
 

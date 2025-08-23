@@ -15,11 +15,13 @@ function createModalWindow() {
     // Create the text block inside the modal
     let modalWindowText = document.createElement('p');
     modalWindowText.className = 'modal-window-text';
+    modalWindowText.setAttribute ('data-translate-key', 'modal-window-text');
     modalWindowText.textContent = `I am a passionate Frontend developer with a strong attention to detail and a commitment to building responsive, user-friendly web interfaces. I have solid skills in HTML, CSS (including Flexbox and Grid), JavaScript (ES6+), and DOM manipulation. I am experienced in creating clean, maintainable code and transforming complex designs into efficient, accessible web pages. I am familiar with modern frontend tools and methodologies such as BEM, Git/GitHub, and responsive design principles. I continuously improve my skills and stay updated with the latest trends and best practices in web development. I enjoy working in collaborative environments and communicate effectively with designers and backend developers to deliver seamless user experiences. My projects demonstrate my ability to write functional, optimized, and clean code, with a focus on accessibility and performance. I am eager to grow professionally and contribute to innovative web development teams.`;
 
     // Create the close button
     let btnClose = document.createElement('button');
     btnClose.className = 'modal-close-button';
+    btnClose.setAttribute ('data-translate-key', 'modal-close-button');
     btnClose.textContent = 'Close';
 
     // Add the text and close button to the modal window

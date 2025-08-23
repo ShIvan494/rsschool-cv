@@ -1,7 +1,7 @@
-- Modify the CSS and HTML according to the BEM methodology
+- Modify the CSS and HTML according to the BEM methodology -  done
 - Export PDF
-- Add section comments for readability & CSS, JS comment
-- Responsive Design (Mobile Adaptation)
+- Add section comments for readability & CSS, JS comment - done
+- Responsive Design (Mobile Adaptation) -done
 - Hamburger Menu (Mobile Navigation)
 -  JavaScript Interactivity
 - Accessibility & UX Improvements
@@ -9,3 +9,4 @@
 - Testing and Support
 - Analytics Integration
 - Multi-language Support
+- translating

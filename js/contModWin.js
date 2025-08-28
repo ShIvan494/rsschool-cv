@@ -7,7 +7,7 @@ let socialContactList = document.querySelector('.contacts__social-list');
 //Get overlay
 
 let overlay = document.querySelector('.page');
-console.log (overlay);
+
 
 //Open contact-list
 

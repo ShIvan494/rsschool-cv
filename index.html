@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#000000">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#000000">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Yandex browser -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="FrontEnd Developer in Wroclaw">
+    <meta name="description"
+        content="Frontend Developer based in Wroclaw with skills in HTML, CSS, JavaScript, and responsive design.">
+    <!-- Open Graph -->
+    <meta property="og:title" content="Ivan Sharakhouski – Frontend Developer">
+    <meta property="og:description" content="Frontend Developer based in Wroclaw, looking for new opportunities.">
+    <meta property="og:image" content="./assets/img/49574df8-7bc3-44d8-ada8-5b99e94d0d53.png">
+    <meta property="og:url" content="https://shivan494.github.io/rsschool-cv/">
+    <meta property="og:type" content="website">
+    <!-- favicon -->
+    <link rel="apple-touch-icon" href="./assets/favicon/apple-touch-icon.png"><!-- 180×180 -->
+    <link rel="icon" href="./favicon.ico"><!-- 32×32 -->
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png"><!-- 16×16 -->
+    <link rel="manifest" href="./site.webmanifest">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Merriweather:wght@400;700&family=Montserrat:wght@400;500&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet">
+    <!-- set fonts file -->
+    <!--  reset default style -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <!-- normalize default style -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/modal-window.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <title>Ivan Sharakhouski | Frontend Developer CV</title>
+</head>
+<body>
+    <!-- wrap -->
+    <div class="page">
+        <!--burger-->
+        <button class="header__burger" id="burger" aria-label="menu">
+            <span class="header__burger-line"></span>
+            <span class="header__burger-line"></span>
+            <span class="header__burger-line"></span>
+        </button>
+        <div class="header">
+            <div class="header__settings">
+                <!-- logo -->
+                <h2 class="header__logo">
+                    <a href="#top" class="header__logo-link">Ivan Sharakhouski&#44; FeD</a>
+                </h2>
+                <!-- lang-setting -->
+                <ul class="header__lang-list">
+                    <li class="header__lang-item" lang="en">
+                        eng
+                    </li>
+                    <li class="header__lang-item" lang="pl">
+                        pl
+                    </li>
+                    <li class="header__lang-item" lang="ru">
+                        ru
+                    </li>
+                </ul>
+            </div>
+            <!-- navi -->
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacts" data-translate-key="navi-link_1">
+                            Contacts
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#myself" data-translate-key="navi-link_2">
+                            Myself
+                        </a>
+                    </li>
+                    <li class="nav-item" id="navi-item-3">
+                        <a class="nav-link" href="#skills" data-translate-key="navi-link_3">
+                            Skills
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#code" data-translate-key="navi-link_4">
+                            Code
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#courses" data-translate-key="navi-link_5">
+                            Courses
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects" data-translate-key="navi-link_6">
+                            Projects
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <!-- header -->
+        <header class="page-header">
+            <!-- main page img -->
+            <img class="page-avatar" src="./assets/img/avatarka.png" alt="Ivan Sharakhouski avatar">
+            <!-- navi & set bar -->
+            <h1 class="page-header__title" data-translate-key="pageTitle">
+                Ivan Sharakhouski&#44;<br><span>frontend developer</span>
+            </h1>
+        </header>
+        <!-- main content -->
+        <main class="content">
+            <section class="about" id="myself">
+                <div class="about__content">
+                    <h2 class="about__title section-title" data-translate-key="pageSubTitle_1">
+                        About Myself
+                    </h2>
+                    <button class="about__button section-button" data-translate-key="SectionButtonText">
+                        About me
+                    </button>
+                </div>
+            </section>
+            <!--<section class="code" id="code">
+                <h2 class="code__title section-title" data-translate-key="pageSubTitle_2">
+                    Code example
+                </h2>
+                <div class="code__content">
+                        <pre><code>
+                            const employees = [
+
+                                { name: "Anna", tasksCompleted: 42 },
+                                { name: "Ivan", tasksCompleted: 55 },
+                                { name: "Maria", tasksCompleted: 37 },
+                                { name: "Oleg", tasksCompleted: 61 },
+                                { name: "Kate", tasksCompleted: 29 }
+
+                            ];
+
+                            employees.sort((a, b) =&gt; b.tasksCompleted - a.tasksCompleted);
+                        </code></pre>
+                    <p class="code__text" data-translate-key="sectionText">
+                        This function sorts the array by tasks completed
+                    </p>
+                </div>
+            </section>-->
+            <section class="skills" id="skills">
+                <h2 class="skills__title section-title" data-translate-key="pageSubTitle_3">Skills</h2>
+                <ul class="skills__list">
+                    <li class="skills__item">
+                        <span class="skills__name">HTML</span>
+                        <progress class="skills__bar" max="100" value="95">95&#37;</progress>
+                        <span class="skills__percent">95&#37;</span>
+                    </li>
+                    <li class="skills__item">
+                        <span class="skills__name">CSS &#40;Flex&#44; Grid&#44; SCSS&#41;</span>
+                        <progress class="skills__bar" max="100" value="90">90&#37;</progress>
+                        <span class="skills__percent">90&#37;</span>
+                    </li>
+                    <li class="skills__item">
+                        <span class="skills__name">JavaScript &#40;ES6&#43;&#41;</span>
+                        <progress class="skills__bar" max="100" value="85">85&#37;</progress>
+                        <span class="skills__percent">85&#37;</span>
+                    </li>
+                    <li class="skills__item">
+                        <span class="skills__name">DOM Manipulation</span>
+                        <progress class="skills__bar" max="100" value="80">80&#37;</progress>
+                        <span class="skills__percent">80&#37;</span>
+                    </li>
+                    <li class="skills__item">
+                        <span class="skills__name">Responsive Design</span>
+                        <progress class="skills__bar" max="100" value="85">85&#37;</progress>
+                        <span class="skills__percent">85&#37;</span>
+                    </li>
+                    <li class="skills__item">
+                        <span class="skills__name">BEM &#47; SCSS</span>
+                        <progress class="skills__bar" max="100" value="80">80&#37;</progress>
+                        <span class="skills__percent">80&#37;</span>
+                    </li>
+                    <li class="skills__item">
+                        <span class="skills__name">Git &#47; GitHub</span>
+                        <progress class="skills__bar" max="100" value="75">75&#37;</progress>
+                        <span class="skills__percent">75&#37;</span>
+                    </li>
+                </ul>
+            </section>
+            <section class="projects" id="projects">
+                <h2 class="projects__title section-title" data-translate-key="pageSubTitle_4">Projects</h2>
+                <div class="projects__grid">
+                    <article class="project-card project-card--cv-site">
+                        <div class="project-card__overlay">
+                            <h3 class="project-card__title" data-translate-key="cardTitle_1">CV&#45;Site</h3>
+                            <a href="https://shivan494.github.io/rsschool-cv/" target="_blank"
+                                class="project-cardbutton section-button" rel="noopener" data-translate-key="cardButton_1">Visit</a>
+                        </div>
+                    </article>
+                    <div class="project-card project2">
+                        <div class="project-card__overlay">
+                            <h3 class="project-card__title" data-translate-key="cardTitle_2">Empty</h3>
+                            <a href="#" target="_blank" class="project-cardbutton section-button" rel="noopener"
+                                data-translate-key="cardButton_2">Visit</a>
+                        </div>
+                    </div>
+                    <div class="project-card project3">
+                        <div class="project-card__overlay">
+                            <h3 class="project-card__title" data-translate-key="cardTitle_3">Empty</h3>
+                            <a href="#" target="_blank" class="project-cardbutton section-button" rel="noopener"
+                                data-translate-key="cardButton_3">Visit</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- wrap -->
+            <div class="section-wrap">
+                <section class="contacts" id="contacts">
+                    <h2 class="contacts__title section-title" data-translate-key="pageSubTitle_5">
+                        Contacts
+                    </h2>
+                    <ul class="contacts__list">
+                        <li class="contacts__item">
+                            <a href="tel:+48452144158" class="contacts__link">&#43;48 452 144 158</a>
+                        </li>
+                        <li class="contacts__item">
+                            <a href="https://mail.google.com/mail/?view=cm&to=ivansharakhouski@gmail.com" class="contacts__link" target="_blank" rel="noopener">
+                                ivansharakhouski@gmail.com
+                            </a>
+                        </li>
+                        <li class="contacts__item">
+                            <a href="https://www.google.com/maps/place/Wrocław,+Poland" class="contacts__link" target="_blank" rel="noopener" data-translate-key="city">
+                                Wrocław, Poland
+                            </a>
+                        </li>
+                        <li class="contacts__item">
+                            <button class="contact-item-button" data-translate-key="contact me">
+                                Contact me
+                            </button>
+                            <ul class="contacts__social-list">
+                                <li class="contacts__social-item">
+                                    <a href="https://github.com/ShIvan494" class="contacts__social-link" target="_blank" aria-label="GitHub" rel="noopener">
+                                        <img src="./assets/icon/github-logo.svg" alt="GitHub icon">
+                                    </a>
+                                </li>
+                                <li class="contacts__social-item">
+                                    <a href="https://www.linkedin.com/in/ivan-sharakhouski-ab4686330/" class="contacts__social-link" target="_blank" aria-label="LinkedIn" rel="noopener">
+                                        <img src="./assets/icon/likdyn-logo.svg" alt="LinkedIn icon">
+                                    </a>
+                                </li>
+                                <li class="contacts__social-item">
+                                    <a href="https://discord.com/users/1045011071804641320" class="contacts__social-link" target="_blank" aria-label="Discord" rel="noopener">
+                                        <img src="./assets/icon/discord-logo.svg" alt="Discord icon">
+                                    </a>
+                                </li>
+                                <li class="contacts__social-item">
+                                    <a href="https://www.facebook.com/profile.php?id=100002189359371" class="contacts__social-link" target="_blank" aria-label="Facebook" rel="noopener">
+                                        <img src="./assets/icon/facebook-logo.svg" alt="Facebook icon">
+                                    </a>
+                                </li>
+                                <li class="contacts__social-item">
+                                    <a href="https://wa.me/48452144158" class="contacts__social-link" target="_blank" aria-label="WhatsApp" rel="noopener">
+                                        <img src="./assets/icon/WA-logo.svg" alt="WhatsApp icon">
+                                    </a>
+                                </li>
+                                <li class="contacts__social-item">
+                                    <a href="https://t.me/Ivanslansk" class="contacts__social-link" target="_blank" aria-label="Telegram" rel="noopener">
+                                        <img src="./assets/icon/telegram-logo.svg" alt="Telegram icon">
+                                    </a>
+                                </li>
+                                <li class="contacts__social-item">
+                                    <a href="viber://chat?number=+48452144158" class="contacts__social-link" target="_blank" aria-label="Viber" rel="noopener">
+                                        <img src="./assets/icon/viber-logo.svg" alt="Viber icon">
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+                <section class="education" id="courses">
+                    <h2 class="education__title section-title" data-translate-key="pageSubTitle_6">Courses</h2>
+                    <ul class="education__list">
+                        <li class="education__item">
+                            <a href="https://law.bsu.by/" class="education__link" target="_blank" rel="noopener" data-translate-key="educationItem_1">
+                                Faculty of Law&#44; Belarusian State University
+                            </a>
+                        </li>
+                        <li class="education__item">
+                            <a href="https://rs.school/courses/javascript-ru" class="education__link" target="_blank" rel="noopener" data-translate-key="educationItem_2">
+                                RS School &#40;Frontend Course&#41;
+                            </a>
+                        </li>
+                        <li class="education__item">
+                            <a href="https://www.it-academy.by/" class="education__link" target="_blank" rel="noopener" data-translate-key="educationItem_3">
+                                Hi-Tech Park Educational Center&#44; Minsk
+                            </a>
+                        </li>
+                        <li class="education__item">
+                            <span class="education__label" data-translate-key="educationItem_4">Languages:</span>
+                            <ul class="language-list">
+                                <li class="language-list__item">
+                                    <span class="language-list__name" data-translate-key="language-item_1">
+                                        Polish</span> – <span class="language-list__level">B2</span>
+                                </li>
+                                <li class="language__item">
+                                    <span class="language-list__name" data-translate-key="language-item_2">English</span> – <span class="language-list__level">B1</span>
+                                </li>
+                                <li class="language__item">
+                                    <span class="language-list__name" data-translate-key="language-item_3">Russian</span> – <span class="language-list__level">Native</span>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </main>
+        <!-- footer -->
+        <footer class="footer">
+            <a href="https://rs.school/courses/javascript-ru" target="_blank" rel="noopener noreferrer" class="footer__link">
+                <img src="./assets/icon/rs-school-logo.svg" alt="RS School logo" title="RS School logo" class="footer__logo">
+            </a>
+            <a href="https://github.com/shivan494/" target="_blank" rel="noopener noreferrer" class="footer__link">
+                <img src="./assets/icon/github-icon.svg" alt="Github logo" title="Github logo" class="footer__icon">
+            </a>
+        </footer>
+    </div>
+<script src="../rsschool-cv/js/Translate.js"></script>
+<script src="../rsschool-cv/js/burgerMenu.js"></script>
+<script src="../rsschool-cv/js/modalWindow.js"></script>
+<script src="../rsschool-cv/js/contModWin.js"></script>
+</body>
+</html>
